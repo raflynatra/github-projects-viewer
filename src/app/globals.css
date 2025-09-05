@@ -1,12 +1,54 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f5f5f5;
+  --color-bg-surface: #eaeaea;
+
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #555555;
+  --color-text-disabled: #9a9a9a;
+
+  --color-accent-blue: #0066cc;
+  --color-accent-blue-hover: #005bb5;
+  --color-accent-blue-active: #004a94;
+
+  --color-accent-orange: #cc7700;
+  --color-accent-orange-hover: #b86800;
+  --color-accent-orange-active: #995400;
+
+  --color-accent-teal: #00997a;
+  --color-accent-teal-hover: #00866b;
+  --color-accent-teal-active: #006655;
+
+  --color-accent-purple: #7a33cc;
+  --color-accent-purple-hover: #692bb0;
+  --color-accent-purple-active: #53228a;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --color-bg-primary: #121212;
+    --color-bg-secondary: #1e1e1e;
+    --color-bg-surface: #2a2a2a;
+
+    --color-text-primary: #eaeaea;
+    --color-text-secondary: #b0b0b0;
+    --color-text-disabled: #6a6a6a;
+
+    --color-accent-blue: #4da6ff;
+    --color-accent-blue-hover: #338fe0;
+    --color-accent-blue-active: #2673b8;
+
+    --color-accent-orange: #ffb84d;
+    --color-accent-orange-hover: #e6a23c;
+    --color-accent-orange-active: #b8741f;
+
+    --color-accent-teal: #4dffd2;
+    --color-accent-teal-hover: #33d1a8;
+    --color-accent-teal-active: #1ea082;
+
+    --color-accent-purple: #b266ff;
+    --color-accent-purple-hover: #9b4ce6;
+    --color-accent-purple-active: #7a33cc;
   }
 }
 

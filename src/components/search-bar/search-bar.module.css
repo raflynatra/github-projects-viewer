@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 32px;
+  border: none;
+  background-color: var(--color-bg-surface);
+  transition: outline 0.2s ease, box-shadow 0.2s ease;
+  color: var(--color-text-primary);
+
+  &:focus-visible,
+  &:focus {
+    outline: 2px solid var(--color-text-secondary);
+    box-shadow: 0 0 0 2px var(--color-text-secondary);
+  }
+
+  &::placeholder {
+    color: var(--color-text-secondary);
+  }
+}
+
+.button {
+  padding: 8px 12px;
+  position: absolute;
+  cursor: pointer;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 32px;
+  border: none;
+  background-color: var(--color-accent-blue);
+
+  &:hover {
+    background-color: var(--color-accent-blue-hover);
+  }
+
+  &:active {
+    background-color: var(--color-accent-blue-active);
+  }
+}
