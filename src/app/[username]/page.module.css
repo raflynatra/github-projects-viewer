@@ -2,15 +2,23 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 1.5rem;
   margin: 0 auto;
 }
 
-/* Profile section */
 .profile {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 1.5rem;
+
+  & p {
+    margin-top: 0.25rem;
+    color: var(--color-text-secondary);
+  }
+
+  @media (max-width: 426px) {
+    flex-direction: column;
+  }
 }
 
 .avatar {
@@ -21,6 +29,7 @@
 }
 
 .meta {
+  margin-top: 1rem;
   display: flex;
   gap: 1rem;
   font-size: 0.9rem;
